@@ -1,0 +1,25 @@
+.student__pharagrath {
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 25px 0 0 0;
+    max-width: 600px;
+}
+
+@media screen and (max-width: 768px) {
+    .student__pharagrath{
+       margin: 20px 0 0 0;
+        font-size: 12px;
+        line-height: 18px;
+        max-width: 364px;
+        
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .student__pharagrath{
+        font-size: 11px;
+        line-height: 16px;
+        
+    }
+}

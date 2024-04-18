@@ -1,0 +1,14 @@
+.header__accaunt{
+    display: flex;
+    margin: 8px 3px 0 0;
+    gap: 7px;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 400px ) {
+    .header__accaunt{
+        margin: 18px 15px 0 0;
+        gap: 13px;
+    }
+}

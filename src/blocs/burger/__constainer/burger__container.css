@@ -1,0 +1,17 @@
+.burger__container {
+    background-color: #202020;
+    position: relative;
+    z-index: 200;
+    width: calc(67vw - 39px);
+    display: flex;
+    flex-direction: column;
+    padding: 22.44px 22.44px 90px 22.44px;
+    align-items: center;
+}
+
+
+@media screen and (max-width:320px) {
+    .burger__container{
+        width: calc(100vw - 44.88px);
+    }
+}

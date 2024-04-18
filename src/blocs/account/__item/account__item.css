@@ -1,0 +1,7 @@
+.account__item{
+    display: flex;
+    width: 410px;
+    justify-content: space-between;
+    padding-bottom: 17px;
+    margin-bottom: 18px; 
+}

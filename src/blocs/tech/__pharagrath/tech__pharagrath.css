@@ -1,0 +1,23 @@
+.tech__pharagrath {
+    margin-top: 28px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.04em;
+    color: #ffffff;
+    max-width: 460px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 768px) {
+    .tech__pharagrath {
+        margin: 22px 0 0 0;
+        max-width: 460px;
+        font-size: 12px;
+        line-height: 18px;
+
+    }
+}

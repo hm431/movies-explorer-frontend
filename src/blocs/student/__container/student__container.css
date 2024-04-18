@@ -1,0 +1,12 @@
+.student__container{
+    display: flex;
+    justify-content: space-between;
+    margin: 66px 0 67px 0;
+}
+
+@media screen and (max-width:400px) {
+    .student__container{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+}

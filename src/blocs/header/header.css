@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    color: aliceblue;
+    width: 100%;
+    border: none;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .header__logo {
+    }
+}

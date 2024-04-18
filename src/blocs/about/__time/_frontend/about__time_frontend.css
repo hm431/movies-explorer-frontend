@@ -1,0 +1,17 @@
+.about__time_frontend{
+    width: 80%;
+    
+}
+
+
+@media  screen and (max-width: 768px) {
+    .about__time_frontend{
+        width: 79.1%;
+    }
+}
+
+@media  screen and (max-width: 400px) {
+    .about__time_frontend{
+        width: 78.5%;
+    }
+}

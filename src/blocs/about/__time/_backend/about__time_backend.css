@@ -1,0 +1,22 @@
+.about__time_backend{
+    width: 20%;
+}
+
+
+@media  screen and (max-width: 768px) {
+    .about__time_backend{
+        width: 21%;
+    }
+}
+
+@media  screen and (max-width: 768px) {
+    .about__time_backend{
+        width: 21%;
+    }
+}
+
+@media  screen and (max-width: 400px) {
+    .about__time_backend{
+        width: 42.5%;
+    }
+}

@@ -1,0 +1,12 @@
+.footer__date {
+    color: white;
+    font-size: 13px;
+    font-family: Inter;
+    font-weight: 400;
+}
+
+@media  screen and (max-width: 400px) {
+    .footer__date{
+        color: #8b8b8b;
+    }
+}

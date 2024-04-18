@@ -1,0 +1,16 @@
+.burger__menu_text {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 4px;
+    margin-bottom: 22px;
+    border-bottom: solid 2px  #202020;
+}
+
+:hover.burger__menu_text{  
+    border-bottom: solid 2px  #ffffff;
+} 

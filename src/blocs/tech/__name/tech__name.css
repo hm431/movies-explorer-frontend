@@ -1,0 +1,21 @@
+.tech__name {
+    margin: 0;
+    border-bottom: 1px solid #FFFF;
+    padding: 0 0 23px 0;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    letter-spacing: -0.04em;
+    color: #ffffff;
+}
+
+@media  screen and (max-width: 400px) {
+    .tech__name{
+        font-size: 18px;
+        line-height: 22px;
+        padding: 0 0 28px 0;
+        border-bottom: 1px solid #000000;
+    }
+}

@@ -1,0 +1,18 @@
+.burger__close {
+    align-self: self-end;
+    background-image: url(../../../images/Close__burger.png); 
+    background-color: #00000000;
+    border: 0;
+    background-size:100% 100%;
+    width: 32px;
+    cursor: pointer;
+    height: 38px;
+    justify-self: left;
+}
+
+.burger__close:hover{
+    opacity: 0.6;
+}
+
+
+

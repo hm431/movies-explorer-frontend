@@ -1,0 +1,26 @@
+.student__link {
+
+    text-decoration: none;
+    margin-top: auto;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: left;
+    color: #ffffff;
+
+}
+
+
+@media  screen and (max-width: 768px) {
+    .student__link{
+        margin-top: 88px;
+    }
+}
+
+@media  screen and (max-width: 400px) {
+    .student__link{
+        margin-top: 39px;
+    }
+}
