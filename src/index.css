@@ -62,6 +62,7 @@
 @import url(./blocs/search/__short/search__short.css);
 @import url(./blocs/search/__element/search__element.css);
 @import url(./blocs/search/__switch/search__switch.css);
+@import url(./blocs/search/__shortButton/search__shortButton.css);
 @import url(./blocs/search/search.css);
 @import url(./blocs/app/app.css);
 @import url(./blocs/card/__header/card__header.css);
@@ -108,3 +109,6 @@
 @import url(./blocs/burger/__menu/_bottom/burger__menu_bottom.css);
 
 @import url(./blocs/switch/switch.css);
+
+
+* { outline: 1px solid red; }

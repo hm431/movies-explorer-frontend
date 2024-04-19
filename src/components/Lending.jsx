@@ -6,17 +6,19 @@ import Student from './Student';
 import Footer from './Footer';
 
 
-function Lending(){
-    return(
-        <>
-      <Header isLanding={"true"}/>
-      <Hero />
-      <About />
-      <Tech/>
-      <Student/>
-      <Footer/>
-        </>
-    )
+function Lending() {
+  return (
+    <>
+      <Header isLanding={"true"} />
+      <main>
+        <Hero />
+        <About />
+        <Tech />
+        <Student />
+      </main>
+      <Footer />
+    </>
+  )
 }
 
 

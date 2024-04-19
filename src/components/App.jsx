@@ -8,7 +8,7 @@ import Registration from './Registration';
 import Main from './Main';
 import Saved from './Saved';
 import NotFound from "./NotFound";
-
+import Account from './Account';
 
 
 
@@ -34,12 +34,14 @@ function App() {
 
           <Route
             path="/profile"
-            element={<ProtectedRoute
-              loggedIn={loggedIn}
-              element={Profile} />} />
+            element={<Profile />}
+            //element={//<ProtectedRoute
+              //loggedIn={loggedIn}
+              //element={Profile />} />//} />
+              />
 
           <Route
-            path="/singup"
+            path="/signup"
             element={<Registration />} />
 
           <Route
@@ -47,18 +49,25 @@ function App() {
             element={<Login />} />
 
           <Route
-            path='/main'
-            element={<movies />} />
+            path='/movies'
+            element={<Main />} />
 
 
           <Route
-            path='/saved'
-            element={<saved-movies/>} />
+            path='/saved-movies'
+            element={<Saved/>} />
 
 
           <Route
-            path="/404"
+            path="*"
             element={<NotFound />} />
+
+<Route
+            path="/accaunt"
+            element={<Account />} />
+
+
+            
         </Routes>
 
       </BrowserRouter>

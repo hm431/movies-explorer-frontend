@@ -1,3 +1,10 @@
 .login__logo{
     width: 38px;
 }
+
+
+@media screen and (max-width: 390px) {
+    .login__logo{
+        align-self: center;
+    }
+}

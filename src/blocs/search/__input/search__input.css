@@ -10,3 +10,9 @@
     margin: 0 0 0 10px;
     max-width: 622px;
 }
+
+@media screen and (max-width: 404px) {
+    .search__input{
+        max-width: 60px;
+    }
+}

@@ -2,12 +2,12 @@ import image from "../images/me.jpg"
 import like from '../images/Card_Like.svg'
 
 function Cards() {
-
+// TODo Добавить тут альт
     return (
         <div className="cards">
             <div className="cards__container">
                 <div className="card">
-                    <img src={image} className=" card__image" />
+                    <img src={image} className=" card__image" />  
                     <div className="card__text">
                         <h2 className="card__header">
                             card__text

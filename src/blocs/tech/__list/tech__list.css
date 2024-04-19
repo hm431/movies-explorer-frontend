@@ -22,6 +22,7 @@
         margin: 49px 0 0 0;
         flex-wrap: wrap;
         justify-content: normal;
-        margin-left: 84px;
+
+        max-width: 200px;
     }
 } 

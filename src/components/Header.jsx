@@ -20,13 +20,13 @@ function Header({isLanding}) {
 
                 {isLanding ?( <></>)
                  : (
-
+                    (window.innerWidth >= 768)  ? (
                 
                 <div className='header__navigation_text'>
                     <a>Фильмы</a>
                     <a>Сохранённые фильмы</a>
                 </div>
-                 )}
+                 ) : (<></>))}
             </div>
 
 
@@ -55,7 +55,7 @@ function Header({isLanding}) {
                         </div>
                         ) : (
                     <div className='header__accaunt'>
-                    <a  className='header__accaunt_text' href='#'>Регистрация</a>
+                    <a  className='header__accaunt_text' href=''>Регистрация</a>
                 <button type="button" onClick={onLogin} className='header__accaunt_button'>
                     Войти
                 </button>

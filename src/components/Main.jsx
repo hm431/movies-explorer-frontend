@@ -3,14 +3,16 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Cards from "./Cards";
 import More from "./More";
-function Main () {
-    return(
+function Main() {
+    return (
         <>
-        <Header />
-        <Search />
-        <Cards />
-        <More/>
-        <Footer/>
+            <Header />
+            <main>
+                <Search />
+                <Cards />
+                <More />
+            </main>
+            <Footer />
         </>
     )
 }

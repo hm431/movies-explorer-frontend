@@ -5,3 +5,10 @@
     font-family: Inter;
     font-weight: 500;
 }
+
+
+@media screen and (max-width: 390px) {
+    .login__header{
+        align-self: center;
+    }
+}

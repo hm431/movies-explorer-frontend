@@ -5,18 +5,20 @@ import Cards from "./Cards";
 import React from 'react';
 import BurgerMenu from "./BurgerMenu";
 
-function Saved () {
+function Saved() {
     const [isBurgerMenuOpen, changeBurgerMenuOpen] = React.useState(false);
 
-    return(
+    return (
         <>
-        <Header />
-        <Search />
-        <Cards />
-        <Footer/>
+            <Header />
+            <main>
+                <Search />
+                <Cards />
+            </main>
+            <Footer />
 
 
-        <BurgerMenu isOpen={isBurgerMenuOpen} />
+            <BurgerMenu isOpen={isBurgerMenuOpen} />
         </>
     )
 }

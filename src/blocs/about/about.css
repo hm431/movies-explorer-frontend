@@ -2,10 +2,14 @@
     color: #FFFF;
     display: flex;
     flex-direction: column;
-    padding: 0 70px 0 70px;
-    max-width: 1140px;
+          padding: 91px 50px 0 50px;
+    max-width: calc(100vw - 100px);
     width: 100%;
 }
+
+
+
+
 
 
 @media  screen and (max-width: 768px) {

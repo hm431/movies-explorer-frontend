@@ -18,15 +18,15 @@ function Student() {
             <div className='student__portfolio'>
                 <h3 className='student__portfolio_header'>Портфолио</h3>
                 <div className='student__portfolio_element'>
-                    <a className='student__portfolio_link' href='https://github.com/hm431/how-to-learn' >Статичный сайт</a>
+                    <a className='student__portfolio_link' target="_blank" rel="noopener noreferrer" href='https://github.com/hm431/how-to-learn' >Статичный сайт</a>
                     <img alt="Лого ссылки" src={link_logo} className='student__portfolio_logo'></img>
                 </div>
                 <div className='student__portfolio_element'>
-                    <a className='student__portfolio_link' href='https://hm431.github.io/russian-travel/'>Адаптивный сайт</a>
+                    <a className='student__portfolio_link' target="_blank" rel="noopener noreferrer" href='https://hm431.github.io/russian-travel/'>Адаптивный сайт</a>
                     <img alt="Лого ссылки" src={link_logo} className='student__portfolio_logo'></img>
                 </div>
                 <div className='student__portfolio_element'>
-                    <a className='student__portfolio_link' href='https://github.com/hm431/react-mesto-api-full-gha'>Одностраничное приложение</a>
+                    <a className='student__portfolio_link' target="_blank" rel="noopener noreferrer" href='https://github.com/hm431/react-mesto-api-full-gha'>Одностраничное приложение</a>
                     <img alt="Лого ссылки" src={link_logo} className='student__portfolio_logo'></img>
                 </div>
             </div>

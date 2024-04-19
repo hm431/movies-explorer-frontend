@@ -1,7 +1,7 @@
 .switch {
     display: inline-block;
     border-left: 1px solid #424242;
-    padding: 0 0 0 29px;
+    padding: 0 0 0 27px;
   }
   
   .switch__input {
@@ -17,8 +17,8 @@
     background-color: #343434;
     cursor: pointer;
     display: block;
-    width: 60px; /* ширина переключателя */
-    height: 34px; /* высота переключателя */
+    width: 36px;
+    height: 20px; /* высота переключателя */
     border-radius: 34px; /* закругление углов */
     transition: background-color 0.4s;
   }
@@ -28,9 +28,9 @@
   .switch__slider:before {
     content: "";
     display: block;
-    width: 26px; /* ширина ползунка */
-    height: 26px; /* высота ползунка */
-    margin: 4px; /* отступ ползунка от краёв переключателя */
+    width: 15px;
+    height: 15px;
+    margin: 2px 0px 0 18.5px;
     background-color: #2BE080;
     border: 1px solid #ffffff ;
     border-radius: 50%;
@@ -38,7 +38,7 @@
   }
 
   .switch__input:checked + .switch__slider:before {
-    transform: translateX(26px); 
+    transform: translateX(-18px); 
     background-color: #ffffff;/* смещение ползунка при активации */
   }
 
@@ -64,7 +64,7 @@
 
       
   .switch__input:checked + .switch__slider:before {
-    transform: translateX(13px); 
+    transform: translateX(-16px); 
     }
   }
   

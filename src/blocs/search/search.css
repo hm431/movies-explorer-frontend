@@ -13,7 +13,13 @@
 
 @media screen and (max-width: 1150px) {
     .saerch{
-        margin: 98px 0 109px 0;
+        margin: 94px 0 109px 0;
         max-width: calc(100vw - 60px);
+    }
+}
+
+@media screen and (max-width: 662px) {
+    .saerch{
+        margin: 80px 0 46px 0;
     }
 }

@@ -22,7 +22,7 @@
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .tech__list_item {
         padding: 20px 0 22px 0;
         width: 85px;
