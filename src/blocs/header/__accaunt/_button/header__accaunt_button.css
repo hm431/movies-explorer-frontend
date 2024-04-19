@@ -1,0 +1,25 @@
+.header__accaunt_button {
+    background-color: #3DDC84;
+    border-radius: 3px;
+    border: none;
+    padding: 8px 20px 8px 20px;
+
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+
+
+    color: #000000;
+}
+
+
+@media screen and (max-width: 400px) {
+
+    .header__accaunt_button {
+        padding: 5px 12px 5px 12px;
+        font-size: 10px;
+    }
+}

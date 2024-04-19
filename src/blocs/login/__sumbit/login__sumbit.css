@@ -1,0 +1,11 @@
+.login__sumbit {
+    background: #4285F4;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 500;
+    padding: 13px 0 15px 0;
+    margin: 197px 0 18px 0;
+}

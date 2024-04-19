@@ -1,0 +1,23 @@
+.student{
+    color: #FFFFFF;
+    padding: 0 70px 0 70px;
+    max-width: 1140px;
+    max-width: 1140px;
+    width: 100%;
+}
+
+@media screen and (max-width: 1150px) {
+    .student{
+        padding: 91px 50px 0 50px;
+        max-width: calc(100vw - 100px);
+    }
+    
+}
+
+
+@media  screen and (max-width: 400px) {
+    .student{
+        padding: 49px 17px 0 9px;
+        max-width: calc(100vw - 34px);
+    }
+}

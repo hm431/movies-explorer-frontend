@@ -1,0 +1,15 @@
+.more__button {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #ffffff;
+
+    background: #2e2e2e;
+    border: 0;
+    border-radius: 6px;
+    width: 320px;
+    padding: 11px 0 9px 0;
+}

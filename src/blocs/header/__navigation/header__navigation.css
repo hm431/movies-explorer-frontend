@@ -1,0 +1,33 @@
+.header__navigation{
+    justify-content: start;
+    display: flex;
+    max-width: 1140px;
+    padding: 18px 70px 0 70px;
+}
+
+
+
+@media screen and (max-width: 1150px) {
+    .header__navigation {
+        padding: 11px 30px 0 30px;
+        max-width: calc(100vw - 60px); 
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .header__navigation{
+        max-width: 238px;
+        padding: 18px 0 0 14px;
+    }
+}
+
+
+
+
+
+
+
+
+
+

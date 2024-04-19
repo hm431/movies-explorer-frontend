@@ -1,0 +1,8 @@
+.burger__menu{
+    margin-top: 105.44px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}

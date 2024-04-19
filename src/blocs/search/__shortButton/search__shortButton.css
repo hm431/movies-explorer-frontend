@@ -1,0 +1,5 @@
+.search__shortButton{
+    display: flex;
+    gap:13px;
+    margin-bottom: 45px;
+}

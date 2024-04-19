@@ -1,0 +1,4 @@
+.burger_opened{
+    visibility: inherit;
+    animation: fade-in 1s;
+}

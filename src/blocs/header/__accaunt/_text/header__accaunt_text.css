@@ -1,0 +1,26 @@
+.header__accaunt_text {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 12px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 12px;
+    font-style: normal;
+    vertical-align:middle
+    
+}
+
+
+
+
+
+@media screen and (max-width: 400px) {
+    .header__accaunt_text{
+       
+font-size: 10px;
+line-height: 16px;
+
+ 
+color: #ffffff;
+    }
+}

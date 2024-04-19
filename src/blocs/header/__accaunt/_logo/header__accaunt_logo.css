@@ -1,0 +1,8 @@
+.header__accaunt_logo{
+    background-color: #0f4157;
+    border-radius: 50%;
+    width: 26px;
+    height: 26px; 
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,23 @@
+.tech{
+    color: #FFFFFF;
+    background-color: #272727;
+    padding: 100px 70px 0 70px;
+    max-width: 1140px;
+    width: 100%;
+}
+
+
+
+@media  screen and (max-width: 1150px) {
+    .tech{
+        padding: 91px 50px 0 50px;
+        max-width: calc(100vw - 100px);
+    }
+}
+
+@media  screen and (max-width: 400px) {
+    .tech{
+        padding: 51px 17px 0 17px;
+        max-width: calc(100vw - 34px);
+    }
+}

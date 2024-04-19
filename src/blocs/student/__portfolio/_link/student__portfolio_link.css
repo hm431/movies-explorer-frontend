@@ -1,0 +1,33 @@
+.student__portfolio_link {
+
+
+    text-decoration: none;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 50px;
+    letter-spacing: -0.04em;
+
+
+    color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+    .student__portfolio_link {
+
+        font-size: 28px;
+
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .student__portfolio_link {
+
+        font-size: 18px;
+        line-height: 28px;
+
+    }
+}
